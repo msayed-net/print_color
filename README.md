@@ -1,5 +1,49 @@
 # print_color
 
-Flutter Plugin : Print.color(text) => to console
+simply organize debugging
 
 ![screenshot](screenshot.png)
+
+
+# usage
+
+* import `import 'package:print_color/print_color.dart';`
+* just `Print.white('someText')`
+
+
+# example
+
+```dart
+import 'package:print_color/print_color.dart';
+
+Print.white('white');
+Print.black('black');
+Print.cyan('cyan');
+Print.blue('blue');
+Print.green('green');
+Print.red('red');
+Print.magenta('magenta');
+Print.yellow('yellow');
+```
+
+
+# colors
+
+* white
+* black
+* cyan
+* blue
+* green
+* red
+* magenta
+* yellow
+
+
+## Author
+
+* Mohamed Sayed [msayed.net](https://msayed.net)
+
+## my other plugins
+
+* [user_auth](https://pub.dev/packages/user_auth)
+
