@@ -1,8 +1,6 @@
 name: print_color
 description: Print.color() to console, help with categorizing prints
-version: 0.1.0
-author:
-- Creator <creative.mohamed.sayed@gmail.com>
+version: 1.0.0
 homepage: https://github.com/MohamedSayed95/print_color
 
 environment:
