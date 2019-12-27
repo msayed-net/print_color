@@ -38,12 +38,20 @@ Print.yellow('yellow');
 * magenta
 * yellow
 
+# Changelog
+## v1.0.1+1
+* Provided Documentation
+## v1.0.0
+* Print.color()
+* colors : `white` | `black` | `cyan` | `blue` | `green` | `red` | `magenta` | `yellow`
+
 
 ## Author
 
 * Mohamed Sayed [msayed.net](https://msayed.net)
 
-## my other plugins
+## My Plugins
 
 * [user_auth](https://pub.dev/packages/user_auth)
+* [print_color](https://pub.dev/packages/print_color)
 
