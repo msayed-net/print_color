@@ -1,16 +1,48 @@
 # print_color_example
 
-Demonstrates how to use the print_color plugin.
+[https://github.com/MohamedSayed95/user_auth/tree/master/example](https://github.com/MohamedSayed95/user_auth/tree/master/example "Example dir")
 
-## Getting Started
+```dart
+import 'package:flutter/material.dart';
+import 'package:print_color/print_color.dart';
 
-This project is a starting point for a Flutter application.
+void main() => runApp(MyApp());
 
-A few resources to get you started if this is your first Flutter project:
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+class _MyAppState extends State<MyApp> {
+  @override
+  void initState() {
+    super.initState();
+  }
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('print_color'),
+        ),
+        body: Center(
+            child: OutlineButton(
+          onPressed: () {
+            Print.white('white');
+            Print.black('black');
+            Print.cyan('cyan');
+            Print.blue('blue');
+            Print.green('green');
+            Print.red('red');
+            Print.magenta('magenta');
+            Print.yellow('yellow');
+          },
+          child: Text('Click Me For Magic'),
+        )),
+      ),
+    );
+  }
+}
+
+```
