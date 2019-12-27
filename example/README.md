@@ -1,6 +1,6 @@
 # print_color_example
 
-[https://github.com/MohamedSayed95/user_auth/tree/master/example](https://github.com/MohamedSayed95/user_auth/tree/master/example "Example dir")
+[Example Dir](https://github.com/MohamedSayed95/user_auth/tree/master/example)
 
 ```dart
 import 'package:flutter/material.dart';
