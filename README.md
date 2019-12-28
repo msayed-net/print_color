@@ -36,7 +36,6 @@ Print.yellow('yellow');
 * magenta
 * yellow
 
-<a href="#" class="button icon search">Search</a>
 
 
 ## Author
