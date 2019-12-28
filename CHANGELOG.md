@@ -1,3 +1,6 @@
+## 1.0.1+1
+* Enhanced Documentation
+
 ## 1.0.1
 * Enhanced Documentation
 * Fixed Tiny Bug
