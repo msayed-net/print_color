@@ -36,6 +36,8 @@ Print.yellow('yellow');
 * magenta
 * yellow
 
+<a href="#" class="button icon search">Search</a>
+
 
 ## Author
 * Mohamed Sayed [msayed.net](https://msayed.net)
