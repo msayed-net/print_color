@@ -36,6 +36,14 @@ Print.yellow('yellow');
 * magenta
 * yellow
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+
+```html
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+```
+
 
 ## Author
 * Mohamed Sayed [msayed.net](https://msayed.net)
