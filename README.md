@@ -38,7 +38,7 @@ Print.yellow('yellow');
 
 
 ## Author
-* [![Mohamed Sayed](https://image.flaticon.com/icons/png/512/1197/1197516.png)](https://msayed.net)
+* [![Mohamed Sayed](https://www.iconninja.com/files/419/56/10/online-google-search-browser-internet-chrome-website-icon.png)](https://msayed.net)
 * [![LinkedIn](https://img.shields.io/badge/LinkedIn-in-0e76a8)](http://linkedin.msayed.net) &nbsp; [![Fork](https://img.shields.io/github/forks/MohamedSayed95/print_color?style=social)](https://github.com/MohamedSayed95/print_color/fork) &nbsp; [![Star](https://img.shields.io/github/stars/MohamedSayed95/print_color?style=social)](https://github.com/MohamedSayed95/print_color/star) &nbsp; [![Watches](https://img.shields.io/github/watchers/MohamedSayed95/print_color?style=social)](https://github.com/MohamedSayed95/print_color/) 
 * [![Plugin](https://img.shields.io/badge/Get%20library-pub-blue)](https://pub.dev/packages/print_color) &nbsp; [![Example](https://img.shields.io/badge/Example-Ex-success)](https://pub.dev/packages/print_color#-example-tab-)
 
