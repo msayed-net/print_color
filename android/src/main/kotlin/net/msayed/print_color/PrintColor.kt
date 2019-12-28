@@ -8,11 +8,11 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-/** PrintColorPlugin */
-public class PrintColorPlugin: FlutterPlugin, MethodCallHandler {
+/** PrintColor */
+public class PrintColor: FlutterPlugin, MethodCallHandler {
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
     val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "print_color")
-    channel.setMethodCallHandler(PrintColorPlugin());
+    channel.setMethodCallHandler(PrintColor());
   }
 
   // This static function is optional and equivalent to onAttachedToEngine. It supports the old
@@ -28,7 +28,7 @@ public class PrintColorPlugin: FlutterPlugin, MethodCallHandler {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
       val channel = MethodChannel(registrar.messenger(), "print_color")
-      channel.setMethodCallHandler(PrintColorPlugin())
+      channel.setMethodCallHandler(PrintColor())
     }
   }
 

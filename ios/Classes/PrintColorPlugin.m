@@ -1,4 +1,4 @@
-#import "PrintColorPlugin.h"
+#import "PrintColor.h"
 #if __has_include(<print_color/print_color-Swift.h>)
 #import <print_color/print_color-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "print_color-Swift.h"
 #endif
 
-@implementation PrintColorPlugin
+@implementation PrintColor
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftPrintColorPlugin registerWithRegistrar:registrar];
+  [SwiftPrintColor registerWithRegistrar:registrar];
 }
 @end
