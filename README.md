@@ -43,6 +43,7 @@ Print.yellow('yellow');
 * [![Plugin](https://img.shields.io/badge/Get%20library-pub-blue)](https://pub.dev/packages/print_color) &nbsp; [![Example](https://img.shields.io/badge/Example-Ex-success)](https://pub.dev/packages/print_color#-example-tab-)
 
 ## My Plugins
+* [localize_and_translate](https://pub.dev/packages/localize_and_translate)
 * [user_auth](https://pub.dev/packages/user_auth)
 * [print_color](https://pub.dev/packages/print_color)
 
