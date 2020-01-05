@@ -1,6 +1,7 @@
-## 1.0.1+3
+## 1.0.1+4
 * Enhanced Documentation
 * Fixed Tiny Bug
+* Fixed iOS Bug
 
 ## 1.0.0
 * Now it's ready

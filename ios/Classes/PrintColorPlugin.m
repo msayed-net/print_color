@@ -1,4 +1,4 @@
-#import "PrintColor.h"
+#import "PrintColorPlugin.h"
 #if __has_include(<print_color/print_color-Swift.h>)
 #import <print_color/print_color-Swift.h>
 #else
