@@ -1,6 +1,6 @@
 name: print_color
 description: Print.color() help organizing debugging, very handy for the day debugging work
-version: 1.0.1+4
+version: 1.0.1+5
 homepage: https://github.com/MohamedSayed95/print_color
 
 environment:
