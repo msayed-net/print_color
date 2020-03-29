@@ -1,3 +1,15 @@
+## 2.1.2+7
+* auto toString() 
+
+## 2.0.2+6
+* docs
+
+## 2.0.1+6
+* docs
+
+## 2.0.0+6
+* added `gray()`
+
 ## 1.0.1+5
 * Enhanced Documentation
 * Fixed Tiny Bug

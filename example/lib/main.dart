@@ -26,6 +26,7 @@ class _MyAppState extends State<MyApp> {
           onPressed: () {
             Print.white('white');
             Print.black('black');
+            Print.gray('gray');
             Print.cyan('cyan');
             Print.blue('blue');
             Print.green('green');
