@@ -6,8 +6,8 @@ print(), in colors
 
 
 # usage
-* import `import 'package:print_color/print_color.dart';`
-* just `Print.green('someText')`
+* `import 'package:print_color/print_color.dart';`
+* `Print.green('someText')`
 
 
 # example
