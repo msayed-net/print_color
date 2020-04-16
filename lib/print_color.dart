@@ -23,7 +23,7 @@ class Print {
   static white(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_white(match.group(0))));
+        .forEach((match) => print(_white(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -32,7 +32,7 @@ class Print {
   static black(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_black(match.group(0))));
+        .forEach((match) => print(_black(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -41,7 +41,7 @@ class Print {
   static gray(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_gray(match.group(0))));
+        .forEach((match) => print(_gray(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -50,7 +50,7 @@ class Print {
   static cyan(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_cyan(match.group(0))));
+        .forEach((match) => print(_cyan(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -59,7 +59,7 @@ class Print {
   static blue(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_blue(match.group(0))));
+        .forEach((match) => print(_blue(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -68,7 +68,7 @@ class Print {
   static green(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_green(match.group(0))));
+        .forEach((match) => print(_green(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -77,7 +77,7 @@ class Print {
   static red(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_red(match.group(0))));
+        .forEach((match) => print(_red(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -86,7 +86,7 @@ class Print {
   static magenta(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_magenta(match.group(0))));
+        .forEach((match) => print(_magenta(match.group(0).toString())));
   }
 
   ///------------------------------------
@@ -95,6 +95,6 @@ class Print {
   static yellow(text) {
     return pattern
         .allMatches(text)
-        .forEach((match) => print(_yellow(match.group(0))));
+        .forEach((match) => print(_yellow(match.group(0).toString())));
   }
 }
