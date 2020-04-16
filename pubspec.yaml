@@ -1,7 +1,7 @@
 name: print_color
 description: print(), in colors, Help organizing debugging making it more fun
-version: 2.1.4
-homepage: https://github.com/MohamedSayed95/print_color
+version: 2.2.4
+homepage: https://github.com/msayed-net/print_color
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

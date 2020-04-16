@@ -1,3 +1,6 @@
+## 2.2.4
+* handle big text 
+
 ## 2.1.2+7 | 2.1.3 | 2.1.4
 * auto toString() 
 

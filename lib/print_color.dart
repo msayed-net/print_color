@@ -15,66 +15,86 @@ AnsiPen _gray = new AnsiPen()..gray();
 /// Print.color()
 ///------------------------------------
 class Print {
+  static final pattern = RegExp('.{1,800}');
+
   ///------------------------------------
   /// Print to console in white
   ///------------------------------------
   static white(text) {
-    return print(_white(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_white(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in black
   ///------------------------------------
   static black(text) {
-    return print(_black(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_black(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in gray
   ///------------------------------------
   static gray(text) {
-    return print(_gray(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_gray(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in cyan
   ///------------------------------------
   static cyan(text) {
-    return print(_cyan(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_cyan(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in blue
   ///------------------------------------
   static blue(text) {
-    return print(_blue(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_blue(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in green
   ///------------------------------------
   static green(text) {
-    return print(_green(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_green(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in red
   ///------------------------------------
   static red(text) {
-    return print(_red(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_red(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in magenta
   ///------------------------------------
   static magenta(text) {
-    return print(_magenta(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_magenta(match.group(0))));
   }
 
   ///------------------------------------
   /// Print to console in yellow
   ///------------------------------------
   static yellow(text) {
-    return print(_yellow(text.toString()));
+    return pattern
+        .allMatches(text)
+        .forEach((match) => print(_yellow(match.group(0))));
   }
 }

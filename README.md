@@ -42,7 +42,7 @@ Print.yellow('yellow');
 
 # known issues
 
-* asnicolor not working in x-code
+* asnicolor not working in some editors/cases, when you see strange chars at console
 
 
 ## Author
