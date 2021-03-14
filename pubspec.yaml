@@ -1,17 +1,17 @@
 name: print_color
-description: print(), in colors, Help organizing debugging making it more fun
-version: 2.2.5
+description: print(), in colors, simple debug
+version: 3.0.0
 homepage: https://github.com/msayed-net/print_color
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  ansicolor: ^1.0.2
+  ansicolor: ^2.0.0-nullsafety.0
 
-flutter:
-  plugin:
-    androidPackage: net.msayed.print_color
-    pluginClass: PrintColor
+# flutter:
+#   plugin:
+#     androidPackage: net.msayed.print_color
+#     pluginClass: PrintColor

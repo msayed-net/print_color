@@ -1,3 +1,6 @@
+## 3.0.0
+* null-safe
+
 ## 2.2.4 | 2.2.5
 * handle big text 
 
