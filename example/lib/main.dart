@@ -3,17 +3,7 @@ import 'package:print_color/print_color.dart';
 
 void main() => runApp(MyApp());
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  void initState() {
-    super.initState();
-  }
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,11 +12,10 @@ class _MyAppState extends State<MyApp> {
           title: const Text('print_color'),
         ),
         body: Center(
-            child: OutlineButton(
+            child: ElevatedButton(
           onPressed: () {
             Print.white('white');
             Print.black('black');
-            Print.gray('gray');
             Print.cyan('cyan');
             Print.blue('blue');
             Print.green('green');

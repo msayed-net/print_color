@@ -1,9 +1,9 @@
 name: print_color_example
 description: Demonstrates how to use the print_color plugin.
-publish_to: 'none'
+publish_to: "none"
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:

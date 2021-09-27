@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftPrintColor: NSObject, FlutterPlugin {
+public class SwiftPrintColorPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "print_color", binaryMessenger: registrar.messenger())
-    let instance = SwiftPrintColor()
+    let instance = SwiftPrintColorPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

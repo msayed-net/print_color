@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface PrintColor : NSObject<FlutterPlugin>
+@interface PrintColorPlugin : NSObject<FlutterPlugin>
 @end
