@@ -1,5 +1,9 @@
 # Logs
 
+## 3.0.2
+
+* added level parameter
+
 ## 3.0.1
 
 * Re-write package

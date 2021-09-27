@@ -1,6 +1,6 @@
 name: print_color
 description: print(), in colors
-version: 3.0.1
+version: 3.0.2
 homepage: https://github.com/msayed-net/print_color
 
 environment:
