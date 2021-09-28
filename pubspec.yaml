@@ -1,0 +1,17 @@
+name: print_color
+description: print() in colors, simple and handy for lightweight debugging
+version: 3.0.3
+homepage: https://github.com/msayed-net/print_color
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+
+flutter:
