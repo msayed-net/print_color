@@ -1,6 +1,6 @@
 name: print_color
 description: print() in colors, simple and handy for lightweight debugging
-version: 3.0.4
+version: 3.0.5
 homepage: https://github.com/msayed-net/print_color
 
 environment:
