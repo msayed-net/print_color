@@ -1,5 +1,9 @@
 # Logs
 
+## 3.0.4
+
+* deprecated
+
 ## 3.0.3
 
 * change template to dart package
